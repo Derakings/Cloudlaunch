@@ -34,7 +34,7 @@ I configured a CloudFront distribution in front of the site bucket for HTTPS and
 
 ### IAM User and Policy
 
-Created an IAM user named `Cloudlaunch--user` with limited permissions to the S3 buckets. The user can:
+Created an IAM user named with limited permissions to the S3 buckets. The user can:
 - List all three buckets
 - GetObject/PutObject on cloudlaunch-private-bucket
 - GetObject on cloudlaunch-site-bucket
@@ -182,7 +182,7 @@ Added VPC read-only permissions to the cloudlaunch-user to allow them to view bu
 
 ### User Credentials Setup
 
-The IAM user `Cloudlaunch--user` has been configured with:
+The IAM user has been configured with:
 - **Console Password**: Temporary password requiring change on first login
 - **Password Requirements**: Minimum 8 characters, mixed case, numbers, symbols
 - **Password Reset**: User must reset password upon initial login
