@@ -26,7 +26,7 @@ I created three S3 buckets with different access levels:
 
 I configured a CloudFront distribution in front of the site bucket for HTTPS and global content delivery:
 
-- CloudFront URL: [https://d2abzvgn2vto3r.cloudfront.net/](https://d2abzvgn2vto3r.cloudfront.net/)
+- CloudFront URL: [https://d2a2v3p788qry3.cloudfront.net/](https://d2a2v3p788qry3.cloudfront.net/)
 - Features:
   - HTTPS security (using default CloudFront certificate)
   - Global content delivery for reduced latency
