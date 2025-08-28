@@ -220,3 +220,6 @@ The IAM user has been configured with:
 - **Network**: Custom AWS VPC with public and private subnets
 - **Security**: IAM-based access control with custom policies
 - **Availability Zones**: Multi-AZ deployment (us-east-1a, us-east-1b)
+
+
+**Complaint** Please I'll be deleting my resources to avoid Aws services charges of which I'm unable to pay at the moment when the fees are charged.
