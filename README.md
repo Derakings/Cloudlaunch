@@ -48,7 +48,13 @@ Created an IAM user named with limited permissions to the S3 buckets. The user c
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "AllowListBuckets",
+            "Sid": "AllowListAllBuckets",
+            "Effect": "Allow",
+            "Action": "s3:ListAllMyBuckets",
+            "Resource": ""
+        },
+        {
+            "Sid": "AllowListSpecificBuckets",
             "Effect": "Allow",
             "Action": "s3:ListBucket",
             "Resource": [
